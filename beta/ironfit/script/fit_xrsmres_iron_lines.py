@@ -44,7 +44,8 @@ param['OBJECT'] = hdu[0].header['OBJECT']
 # -------------------------
 # Xspec read and setup
 # -------------------------
-logfile = xspec.Xset.openLog(f"xspec.log")
+flogfile = '%s_xspec.log' % args.outname
+logfile = xspec.Xset.openLog(flogfile)
 try:
     spec = xspec.Spectrum(args.inputpha)
 except:
