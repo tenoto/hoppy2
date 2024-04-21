@@ -1,2 +1,1 @@
-# hoppy2
-HOPPY: High-energy Observatory Pipelines via PYthon
+# HOPPY2: High-energy Observatory Pipelines via PYthon
