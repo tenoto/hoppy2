@@ -1,0 +1,30 @@
+model: "pegpwrlw+gauss+gauss"
+emin: 6.33
+emax: 6.45
+statMethod: "cstat"
+abund: "wilm"
+minSig: 20.0
+maxBins: 4
+y1_min: 0
+y1_max: 22
+y2_min: -10
+y2_max: 10
+error_level: 1.0
+pegpwrlw:
+  name: "pegpwrlw"
+  PhoIndex : -3
+  eMin: 2.0
+  eMax: 10.0 
+  norm: 5200
+gaussian:
+  name: "FeKa1"
+  LineE: 6.39727
+  Sigma: 0.00562645
+  norm: 0.0013236
+  LineE_lab: 6.4038  
+gaussian_3:
+  name: "FeKa2"
+  LineE: 6.38324
+  Sigma: 0.00614694
+  norm: 0.000717446
+  LineE_lab: 6.3908
